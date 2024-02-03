@@ -1,6 +1,6 @@
 <template>
     <div class="button-container">
-        <ToggleButton class="material-symbols-outlined" v-model="themeToggle" onLabel="&#xe518" offLabel="&#xe51c" @change="changeTheme"/>
+        <ToggleButton class="material-symbols-outlined" v-model="themeToggle" onLabel="Dark" offLabel="Light" @change="changeTheme"/>
     </div>
 </template>
 
@@ -44,5 +44,6 @@ export default {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    z-index: 1000;
 }
 </style>

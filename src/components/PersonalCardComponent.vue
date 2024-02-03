@@ -10,6 +10,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="card-body">
                 <p class="card-text text--black">
                     I am a fullstack developer with a passion for creating functional web applications.
@@ -45,5 +46,10 @@
 
     .personal--image {
         border-radius: 5%;
+    }
+
+    .personal--container {
+        height: 550px;
+        max-height: 700px;
     }
 </style>

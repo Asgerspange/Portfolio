@@ -19,10 +19,8 @@
                         <td>{{ skill.specifications }}</td>
                     </tr>
                 </tbody>
-
             </table>
         </div>
-            
     </div>
 </template>
 
@@ -36,7 +34,7 @@
                     { name: 'PHP', understanding: 'Intermediate', specifications: 'PHP 7, PHP 8, Composer' },
                     { name: 'Javascript', understanding: 'Intermediate', specifications: 'ES8' },
                     { name: 'Python', understanding: 'Advanced Beginner', specifications: 'Flask, Python 3, Pandas' },
-                    { name: 'C#', understanding: 'Beginner', specifications: '.NET' },
+                    { name: 'C#', understanding: 'Beginner', specifications: '.NET, Unity' },
                     { name: 'Node.js', understanding: 'Advanced Beginner', specifications: 'Mongoose, NPM' },
                     { name: 'MSSQL', understanding: 'Expert', specifications: 'T-SQL, SSMS, SQL Server' },
                     { name: 'MySQL', understanding: 'Advanced Intermediate', specifications: 'SQL, MySQL Workbench' },
@@ -45,3 +43,17 @@
         },
     }
 </script>
+
+<style lang="scss" scoped>
+    @import "@/scss/variables.scss";
+    .skills--container {
+        height: 550px;
+        table {
+            width: 100%;
+            th, td {
+                border: 1px solid $black-secondary;
+                padding: 5px;
+            }
+        }
+    }
+</style>

@@ -33,5 +33,9 @@ html[data-theme="dark"] {
 
     .skills--container {
         background-color: $black-secondary-faded;
+
+        th {
+            background-color: $black-secondary;
+        }
     }
 }
